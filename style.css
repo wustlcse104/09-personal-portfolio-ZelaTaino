@@ -1,0 +1,439 @@
+@font-face {
+  font-family: 'Lora', serif;
+}
+
+@font-face {
+  font-family: 'Lato', serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  outline: none;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #CFF6F9;
+  height: 31px;
+  width: 330px;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 5px; 
+  margin-top: 14px;
+  color: white;
+  font-family: Lato, san-serif;
+}
+
+input[type=submit] {
+  background-color: #AAD5D8;
+  border-radius: 3px;
+  height: 46px;
+  width: 136px;
+  text-transform: uppercase;
+  color: white;
+  font-family: Lato, san-serif;
+  font-size: 16px;
+  border: none;
+}
+
+textarea {
+  background-color: transparent;
+  border: 1px solid #CFF6F9;
+  margin-top: 14px;
+  height: 70px;
+  width: 380px;
+  font-family: Lato-Light, san-serif;
+  font-size: 16px;
+  padding: 5px;
+}
+
+::placeholder {
+    color: #CFF6F9;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #CFF6F9;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #CFF6F9;
+}
+
+.site-name {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  font-weight: 700;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Lato-Bold,Helvetica Neue,Arial,sans-serif;
+}
+
+.site-name-link {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  transform: translateZ(0);
+  position: relative;
+  color: #D16666;
+}
+
+
+.section-margin {
+  padding: 40px;
+}
+
+#landing {
+  height: 90vh;
+}
+
+.landing-header {
+  font-weight: normal;
+  font-size: 45px;
+  position: absolute;
+  padding: 0 20px;
+  top: 35.5%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: black;
+  font-family: 'Lora', serif;
+}
+
+.section-header {
+  font-family: 'Lato', san-serif;
+  font-size: 140pt;
+  font-weight: 900;
+  margin-bottom: -55px;
+  z-index: 10;
+  position: relative;
+}
+
+.case-items {
+  max-width: 1150px;
+  margin: -180px auto 0;
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.case-item {
+  flex: 1 50%;
+  text-align: left;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  min-height: 445px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.case-item-text {
+  font-size: 14px;
+  line-height: 25px;
+  position: relative;
+  z-index: 10;
+  padding-top: 1em;
+  transform: translateZ(0);
+  font-family: 'Lato',sans-serif;
+  text-align: left;
+  padding-bottom: 1.3em;
+}
+
+.bar-seperator {
+  height: 4px;
+  width: 63px;
+  background-color: white;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.case-item-wide {
+  text-align: center;
+  min-height: 300px;
+  flex: 1 100%;
+}
+
+.case-item-text-left {
+  width: 45%;
+  float: left;
+}
+
+.case-item-text-right {
+  margin-top: 34px;
+  width: 45%;
+  float: right;
+}
+
+.case-item-image-right {
+  width: 54%;
+  min-height: 50%;
+  float: right;
+  margin-left: 1%;
+}
+
+.case-item-image-left {
+  width: 54%;
+  min-height: 50%;
+  float: left;
+  margin-right: 1%;
+}
+
+.case-item-mastercard {
+  background-color: #C46C36;
+}
+
+.case-item-header {
+  min-height: 2em;
+  margin-bottom: 1em;
+  transform: translateZ(0);
+  position: relative;
+  z-index: 10;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  font-size: 45px;
+  text-align: left;
+}
+
+.case-item-screens {
+  width: 100%;
+  margin: auto;
+}
+
+.case-item-screens-twitter {
+  height: 174.96px;
+  margin: auto;
+  display: block;
+}
+
+.case-item-wics {
+  background-color: #6336C4;
+}
+
+.case-item-twitter {
+  background-color: #36ADC4;
+}
+
+.case-item-photostash {
+  background-color: #c44736;
+}
+
+.case-item-screens-photostash {
+  height: 380px;
+}
+
+
+
+.card {
+  max-width: 1150px;
+  margin: 100px auto 0;
+  padding: 40px;
+}
+
+.contact-info {
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 55%;
+  background-color: #D16666;
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.contact-link {
+  padding: 4px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 30px;
+  vertical-align: top;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-link-linked {
+    padding-top: 5px;
+    border-radius: 100%;
+    color: #0e1a25;
+    fill: #0e1a25;
+}
+
+.contact-picture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: #e7e8ed;
+}
+
+.case-item-bg {
+  background-position: center right;
+  background-image: url(img/aboutme-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.form-info {
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: #369FC4;
+  text-align: left;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.question {
+  margin: 30px 0;
+}
+
+.form-text {
+  font-family: 'Lato', san-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  line-height: 25px;
+  margin-right: 8px;
+}
+
+.checkbox-text {
+  font-family: Lato-Light;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+
+.checkbox-options {
+  margin-top: 15px;
+}
+
+
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border: 3px solid #CFF6F9;
+  border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #2B87A7;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.form-table {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.form-left {
+  width: 50%;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.price-estimate {
+  font-family: Laro, san-serif;
+  font-weight: normal;
+  font-size: 180px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
