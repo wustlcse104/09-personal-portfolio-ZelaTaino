@@ -20,10 +20,6 @@ a {
   color: white;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 input {
   outline: none;
 }
