@@ -63,6 +63,7 @@ textarea {
   font-family: Lato-Light, san-serif;
   font-size: 16px;
   padding: 5px;
+  color: white;
 }
 
 ::placeholder {
